@@ -1,0 +1,8 @@
+# when we use conidition we use if and else statement 
+a=23
+b=12
+take=input('')
+if take==add:
+  print(a+b)
+else:
+  print(a*b)
