@@ -1,0 +1,7 @@
+a=12
+b=3   #we store value in a varialble
+print(a+b)
+c=a*b
+print(c)
+d=a%b  #% is denoted and spelled by modulous it gives reminder
+print(d)
