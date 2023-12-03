@@ -1,0 +1,9 @@
+#Find the Greatest of the two number?
+a=int(input('Ente a Number'))
+b=int(input('enter a number '))
+if a>b:
+  print('a is greater' )
+elif a<b:
+  print('b is greater')
+else:
+  print('both number are Equal')
