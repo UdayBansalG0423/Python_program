@@ -1,0 +1,14 @@
+# if we conditon and there is another condition condition in a condition then we use nested if and else
+
+
+condition1=True
+condition2=False
+condition3=True
+if (condition1):
+  if(condition2):
+    print('statement 1')
+  else:
+    print('Statement 2')
+else:
+  if(condition3):
+    print('Statement3')
