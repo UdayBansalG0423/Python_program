@@ -1,0 +1,12 @@
+#A student will not be  allowed to sit in exam is his/her attendece is less than 75%. Take following input from user no. of classes held, No. of classes attendent and print % of class attendence is student is allowed to sit or not?
+
+Attend=int(input('no. of class attended'))
+held=int(input('no. of class held '))
+per=(Attend/held)*100
+print(per,'%')
+if per>=75:
+  print('Student is Allow to Sit')
+else:
+  print('Student is Not Allow To sit')
+
+  
