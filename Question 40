@@ -1,0 +1,13 @@
+char=input('')
+a=list(char)
+n=len(a)
+if n%2==0:
+    i=0
+    for i in range(0,n,2):
+        a[i],a[i+1]=a[i+1],a[i]
+        
+    z=''
+    z=z.join(a)
+    print(z)
+else:
+    print('Odd length.')
