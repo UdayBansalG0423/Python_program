@@ -1,0 +1,8 @@
+Principle=float(input("Enter principal amount in dollars  :"))
+Rate=int(input("Enter the annual interest rate  :"))
+Time=int(input("Enter the loan term (in years)  :"))
+p=Principle
+r=Rate/(12*100)
+n=Time*12
+A=(p*r*((1+r)**n))/(((1+r)**n)-1)
+print("Monthly payment in dollars :- %.2f"%A)
