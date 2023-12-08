@@ -1,0 +1,4 @@
+# 3 print 0 to 10 normanrly increament of 1
+# with for loop
+for i in range(11):
+    print(i)
