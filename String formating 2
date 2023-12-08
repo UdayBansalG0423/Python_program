@@ -1,0 +1,5 @@
+#%s=for string and %d=for int
+name='uday'
+age=19
+st='his name is %s,his age is %d'%(name,age) 
+print(st)
