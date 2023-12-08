@@ -1,0 +1,8 @@
+def Area_of_rect(l,b):
+    return 1 * b
+def peri_of_rect(l,b):
+    return 2 * (1+b)
+
+#main code 
+length=int(input('enter the number'))
+breath=int(input('enter the breadth'))
