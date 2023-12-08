@@ -1,0 +1,18 @@
+# odd even back i delhi
+n=int(input(''))
+i=0
+while(i<n):
+    x=input('')
+    i=i+1
+    out=0
+    add=0
+    for y in x:
+        j=int(y)                
+        if(j%2!=0):
+            add=add+j
+        else:
+            out=out+j
+    if(out%4==0 or add%3==0):
+        print('Yes')
+    else:
+        print('No')
