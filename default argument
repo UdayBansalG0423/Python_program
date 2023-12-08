@@ -1,0 +1,10 @@
+def dis_info(name,roll,sec="cd",clg="GLA"):
+    data = f'''
+    name  : {name}
+    roll no.: {roll}
+    college: {clg}
+    section: {sec}'''
+    return data
+
+out=dis_info('uday',54)
+print(out)
