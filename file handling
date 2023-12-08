@@ -1,0 +1,3 @@
+f=open(r'D:\GLA\coding\file handling\zigzag.text', 'w')
+f.write("hello world")
+f.close()
