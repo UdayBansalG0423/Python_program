@@ -1,0 +1,6 @@
+# write a pyhton program that generate volume of cylinder and take radius and height from the user 
+a=int(input('enter radius'))
+b=int(input('enter height'))
+pi=3.14
+c=pi*a**2*b
+print(c,'cube')
