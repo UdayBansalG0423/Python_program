@@ -1,0 +1,17 @@
+# write a program if the elemnt of a list are same or not 
+l=[2,3,4,5,6,7,8]
+n=l
+i=0
+j=len(l)-1
+while i<j:
+    t=l[i]
+    l[i]=l[j]
+    l[j]=t
+    i=i+1
+    j=j-1
+print('reversed',l)
+print('original',n)
+if l==n:
+    print('yes')
+else:
+    print('No')
