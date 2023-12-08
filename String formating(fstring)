@@ -1,0 +1,3 @@
+#fstring
+st3=f'his name is {name},his age is {age}'
+print(st3)
