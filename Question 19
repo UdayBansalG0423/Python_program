@@ -1,0 +1,5 @@
+# Write a python program that generate volume of sphere and take radius from the user
+a=int(input('enter radius')
+pi=3.14
+c=4/3*pi*a**3
+print(c)
