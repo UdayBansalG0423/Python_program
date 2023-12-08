@@ -1,0 +1,14 @@
+# scope of variable
+'''anything inside function is a local scope and outsde the function it is a global scope
+
+'''
+
+def add():
+    #local scope
+    a=0  #it is a local variable because it initialize in a local scope
+
+
+#global scope
+a=23 # it is global varialble b'cauz it is initialize  in a global scope
+add()
+print(a)
