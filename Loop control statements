@@ -1,0 +1,12 @@
+# there are three type of loop control statement 
+#1.Break
+#2.continue
+#3.pass
+
+#ex-1
+# break--it is used to terminate the loop
+st='hello workd'
+for i in st:
+  if i=='o':
+    break
+  print(i,end=' ')
