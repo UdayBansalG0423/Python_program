@@ -1,0 +1,12 @@
+# patindrome no.
+n=int(input())
+s=0
+cp=n
+while n>0:
+    r=n%10
+    s=s*10+r
+    n=n//10
+if cp==s:
+    print(cp,'patindrome no.')
+else:
+    print(cp'this is not patindrome')
