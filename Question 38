@@ -1,0 +1,9 @@
+# simple input
+S=0
+while(True):
+    n=int(input(''))
+    S+=n
+    if(S>=0):
+        print(n)
+    else:
+        break
