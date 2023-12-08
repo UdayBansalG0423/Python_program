@@ -1,0 +1,6 @@
+#string formating
+#1- '+' concatination
+name='uday'
+age=19
+st='my name is '+name+('')+'my age is'+str(age)
+print(st)
