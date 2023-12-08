@@ -1,0 +1,11 @@
+#Write a python function to check whether given no. is prime or not
+
+def check_prime(x):
+    count=0
+    for i in range(1,x+1):
+        if x%i==0:
+            count+=1
+    return count==2
+#main code
+x=int(input(""))
+check_prime(x)
