@@ -1,0 +1,6 @@
+# Check whether you are eligible for vote or not 
+a=int(input('enter your age'))
+if (a<=18):
+  print('not eligible for vote')
+else:
+  print('Eligible for vote')
