@@ -1,0 +1,13 @@
+#without inbuilt function
+
+lst=list(map(int,input().split()))
+import math
+maxi=-math.inf
+mini=math.inf
+for i in lst:
+    if i>maxi:
+        maxi=i
+    if i<mini:
+        mini=i
+print('maximum no =',maxi,end='  ')
+print('manimum no =',mini ,'in a list',lst)
