@@ -1,0 +1,4 @@
+#2 print 3 to 10 in reverse order
+# with for loop
+for i in range(10,2,-1):
+    print(i)
