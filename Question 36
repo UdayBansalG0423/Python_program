@@ -1,0 +1,8 @@
+#binary to decimal
+N=input('')
+sume=0
+y=list(N)
+y.reverse()
+for i in range(len(y)):
+    sume=sume+int(y[i])*2**i
+print(sume)
