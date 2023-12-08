@@ -1,0 +1,6 @@
+# A program that converts a given number of days into weeks and days
+a=int(input('enter your number')
+b=a//7
+d=a%7
+print('b',weeks)
+print('d',days)
