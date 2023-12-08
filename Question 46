@@ -1,0 +1,8 @@
+def perfect_num(a,b):
+    s=1
+    while 1:
+        if s%a==0 and s%b==0:
+            return s
+        s+=1
+
+perfect_num(2,3)
