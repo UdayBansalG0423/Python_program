@@ -1,0 +1,8 @@
+# write a program that convert min into hour,hour into second 
+a=int(input('enter the number'))
+min=a//60
+hour=min//60
+remain=a%60
+print(min,"minute")
+print(hour,'Hour')
+print(remain,'Sec')
