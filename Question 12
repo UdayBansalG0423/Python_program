@@ -1,0 +1,17 @@
+#reverse a number and check revrse number is grater than original number or not
+
+n=int(input('enter a number '))
+original=n
+x=0
+while(n>0):
+    lastdigit=n%10
+    n=n//10
+    x=x*10+lastdigit
+print(x)
+print(original)
+if(x>original):
+    print('reverse is greater')
+elif x==original:
+    print('both are equal')
+else:
+    print('original is greater')
