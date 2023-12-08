@@ -1,0 +1,11 @@
+# take a list from user and delete all the repeated element from the list
+lst=list(map(int,input().split()))
+out=[]
+
+
+for i in lst:
+    if i not in out:
+        out.append(i)
+        
+        
+print(out)
