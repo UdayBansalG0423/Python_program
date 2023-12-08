@@ -1,0 +1,11 @@
+# print seies
+N1=int(input(''))
+N2=int(input(''))
+zoo=0
+p=1
+while(zoo<N1):
+    h=3*p+2
+    if h%N2!=0:
+        print(h)
+        zoo=zoo+1
+    p=p+1
