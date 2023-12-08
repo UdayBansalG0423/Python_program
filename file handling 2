@@ -1,0 +1,7 @@
+# now read a character from a file 
+
+g=open('sample.txt','r')   # for reading the file name must be given or path 
+data=g.read()
+print(data)
+g.close()
+# file is just  a information
