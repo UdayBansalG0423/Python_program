@@ -1,0 +1,15 @@
+#user give range and print prime no.  within range
+
+upperlimit=int(input('enter the number'))
+lowerlimit=int(input('enter the number'))
+count=0
+while(lowerlimit<upperlimit):
+    flag=True
+    for i in range (2,lowerlimit):
+       if(lowerlimit%i==0):
+                flag=False
+                break
+    if(flag==True):
+            print(lowerlimit)
+            count+=1
+    lowerlimit+=1
