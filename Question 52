@@ -1,0 +1,6 @@
+# take a list from user and find the maximum and minimum element of the given list
+#this is with inbuilt function
+lst=list(map(int,input().split()))
+print(lst)
+print(max(lst))
+print(min(lst))
