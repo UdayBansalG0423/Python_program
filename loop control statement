@@ -1,0 +1,7 @@
+# we have two types of loop in python 
+#1.For loop 
+#.while loop
+
+# syntax of for loop
+for i in range(start,stop,step):   # i=any variable
+  #code here 
