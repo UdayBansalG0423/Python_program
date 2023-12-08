@@ -1,0 +1,6 @@
+# syntax
+i=1 #initialization
+while i>0:  # declaration
+  #code here
+
+  i=i+1   # updation
