@@ -1,0 +1,3 @@
+text = "hello, World!"
+result = text[::2]
+print(result)
