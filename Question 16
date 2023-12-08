@@ -1,0 +1,6 @@
+# Develop a temperature converte programe that convert b/w celcius,ferenite and kelvin
+a=int(input('enter your number')
+b=a+33.8
+c=a+274.15
+print(b,'Farenite')
+print(c,'kelvin')
