@@ -1,0 +1,15 @@
+#write a python program thst removee the repeated  character from a given string more than k times  
+st='geeksforgeeks'
+dt={}
+k=2
+for i in st:
+    if i in dt:
+        dt[i]+=1
+    else:
+        dt[i]=1
+emp=''
+print(dt)
+for a in st:
+    if dt[a]<k:
+        emp+=a
+print(emp)
