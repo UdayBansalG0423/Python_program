@@ -1,0 +1,10 @@
+# take an input from user find average and product
+n=int(input('enter a number'))
+sum1=0
+prod=1
+for i in range(0,n,1):
+    x=int(input('enter your number'))
+    sum1=sum1+x
+    prod=prod*x
+print(sum1/n)
+print(prod)
