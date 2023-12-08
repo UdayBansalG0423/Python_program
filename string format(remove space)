@@ -1,0 +1,3 @@
+#strip remove spacec ofsting
+st='       hello world       '
+print(st.strip())
