@@ -1,0 +1,5 @@
+name='uday'
+age=19
+
+st4='his name is {},his age is {}'.format(name,age) 
+print(st4)
